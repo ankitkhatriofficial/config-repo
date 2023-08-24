@@ -1,1 +1,3 @@
-
+application:
+    config:
+        open-uris: /api/v1.0/security/auth/generate-token, /api/v1.0/security/auth/refresh-token, /api/v1.0/security/auth/validate-otp, /v1.0.0/hospital/hospitalRegistration, /v1.0.0/hospital/getAllHospital, /v1.0.0/hospital/getHospitalById/**, /v1.0.0/deviceSeller/sellerRegister, /v1.0.0/medicalDevices/getAllDevices, /v1.0.0/medicalDevices/getAllDeviceByID/**
